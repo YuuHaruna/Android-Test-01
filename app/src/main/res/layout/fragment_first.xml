@@ -25,7 +25,8 @@
         style="@style/EditTextCompose"
         app:layout_constraintStart_toEndOf="@id/textview_compose_sender"
         app:layout_constraintTop_toTopOf="@id/textview_compose_sender"
-        android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_down_24"/>
+        android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_down_24"
+        android:inputType="textEmailAddress"/>
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/textview_compose_reciever"
@@ -37,6 +38,7 @@
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/edittext_compose_receiver"
         style="@style/EditTextCompose"
+        android:inputType="textEmailAddress"
         app:layout_constraintStart_toEndOf="@id/textview_compose_reciever"
         app:layout_constraintTop_toTopOf="@id/textview_compose_reciever"/>
 
@@ -50,6 +52,7 @@
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/edittext_compose_manyrecipients_public"
         style="@style/EditTextCompose"
+        android:inputType="textEmailAddress"
         app:layout_constraintStart_toEndOf="@id/textview_compose_manyrecipients_public"
         app:layout_constraintTop_toTopOf="@id/textview_compose_manyrecipients_public"/>
 
@@ -63,12 +66,14 @@
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/edittext_compose_manyrecipients_private"
         style="@style/EditTextCompose"
+        android:inputType="textEmailAddress"
         app:layout_constraintStart_toEndOf="@id/textview_compose_manyrecipients_private"
         app:layout_constraintTop_toTopOf="@id/textview_compose_manyrecipients_private"/>
 
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/edittext_compose_subject"
         style="@style/EditTextCompose"
+        android:inputType="textEmailSubject"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview_compose_manyrecipients_private"
         android:layout_marginTop="@dimen/margin_compose_top"
