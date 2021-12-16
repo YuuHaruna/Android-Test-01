@@ -1,3 +1,6 @@
 <resources>
-    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding_compose_layout">10dp</dimen>
+    <dimen name="textsize_compose">14sp</dimen>
+    <dimen name="margin_compose_top">30dp</dimen>
+    <dimen name="margin_compose_edittext_start">5dp</dimen>
 </resources>

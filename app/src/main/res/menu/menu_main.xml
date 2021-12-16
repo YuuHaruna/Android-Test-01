@@ -6,18 +6,21 @@
     <item
         android:id="@+id/action_attach"
         android:icon="@drawable/ic_baseline_attachment_24"
-        android:title="@string/attach"
+       android:title="@string/attach"
+        android:contentDescription="@string/attach"
         app:showAsAction="ifRoom"/>
 
     <item
         android:id="@+id/action_send"
         android:icon="@drawable/ic_baseline_send_24"
         android:title="@string/send"
+        android:contentDescription="@string/send"
         app:showAsAction="ifRoom"/>
 
     <item
         android:id="@+id/action_settings"
         android:icon="@drawable/ic_baseline_more_vert_24"
         android:title="@string/action_settings"
+        android:contentDescription="@string/action_settings"
         app:showAsAction="ifRoom" />
 </menu>
