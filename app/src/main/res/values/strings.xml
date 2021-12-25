@@ -14,4 +14,5 @@
     <string name="text_compose_subject">Subject</string>
     <string name="text_compose_content">Compose email</string>
     <string name="text_receive_receiver">tới %1$s</string>
+    <string name="text_receive_date">%1$d/%2$d/%3$d</string>
 </resources>

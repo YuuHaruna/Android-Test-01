@@ -100,7 +100,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintBottom_toBottomOf="@id/textView_receive_avatar"
                 android:src="@drawable/ic_baseline_more_vert_24"
-                android:background="@color/white"
+                android:background="@null"
                 android:padding="@dimen/padding_receive_morebutton"/>
 
             <androidx.appcompat.widget.AppCompatImageButton
@@ -110,7 +110,7 @@
                 app:layout_constraintEnd_toStartOf="@id/imagebutton_receive_more"
                 app:layout_constraintBottom_toBottomOf="@id/textView_receive_avatar"
                 android:src="@drawable/ic_outline_turn_left_24"
-                android:background="@color/white"
+                android:background="@null"
                 android:padding="@dimen/padding_receive_replybutton"/>
 
             <androidx.appcompat.widget.AppCompatTextView
