@@ -3,12 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/lopho/AndroidStudioProjects/AndroidTest1/app/src/main/res/drawable/background_receivefrag_avatar.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/lopho/AndroidStudioProjects/AndroidTest1/app/src/main/res/drawable/ic_baseline_archive_24.xml" value="0.2203125" />
         <entry key="..\:/Users/lopho/AndroidStudioProjects/AndroidTest1/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/lopho/AndroidStudioProjects/AndroidTest1/app/src/main/res/layout/content_main.xml" value="0.22" />
+        <entry key="..\:/Users/lopho/AndroidStudioProjects/AndroidTest1/app/src/main/res/layout/fragment_compose.xml" value="0.22" />
         <entry key="..\:/Users/lopho/AndroidStudioProjects/AndroidTest1/app/src/main/res/layout/fragment_first.xml" value="0.25" />
+        <entry key="..\:/Users/lopho/AndroidStudioProjects/AndroidTest1/app/src/main/res/layout/fragment_receive_mail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/lopho/AndroidStudioProjects/AndroidTest1/app/src/main/res/layout/fragment_recieve.xml" value="0.33" />
         <entry key="..\:/Users/lopho/AndroidStudioProjects/AndroidTest1/app/src/main/res/layout/fragment_second.xml" value="0.25" />
         <entry key="..\:/Users/lopho/AndroidStudioProjects/AndroidTest1/app/src/main/res/menu-v26/menu_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/lopho/AndroidStudioProjects/AndroidTest1/app/src/main/res/menu/menu_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/lopho/AndroidStudioProjects/AndroidTest1/app/src/main/res/menu/menu_receive.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

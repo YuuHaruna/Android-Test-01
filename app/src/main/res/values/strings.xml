@@ -4,10 +4,14 @@
     <string name="appbar_title">Compose</string>
     <string name="attach">Attach</string>
     <string name="send">Send</string>
+    <string name="archive">Archive</string>
+    <string name="delete">Delete</string>
+    <string name="mark_unread">Mark As Unread</string>
     <string name="text_compose_sender">From</string>
     <string name="text_compose_reciever">To</string>
     <string name="text_compose_manyrecipients_public">CC</string>
     <string name="text_compose_manyrecipients_private">BCC</string>
     <string name="text_compose_subject">Subject</string>
     <string name="text_compose_content">Compose email</string>
+    <string name="text_receive_receiver">tới %1$s</string>
 </resources>

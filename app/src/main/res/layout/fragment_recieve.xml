@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="binding"
+            type="android.view.View" />
+
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_receivefragment"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@drawable/ic_baseline_arrow_back_24" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_compose_layout"
+            tools:context=".RecieveFragment">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textview_receive_subject"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize_receive_subject"
+                app:layout_constraintEnd_toStartOf="@id/imagebutton_receive_star"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Github" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/imagebutton_receive_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:src="@drawable/ic_baseline_star_border_24"
+                app:layout_constraintBottom_toBottomOf="@+id/textview_receive_subject"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/textview_receive_subject" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textView_receive_avatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                tools:text="G"
+                android:textSize="@dimen/textsize_receive_subject"
+                android:gravity="center"
+                android:background="@drawable/background_receivefrag_avatar"
+                android:layout_marginTop="@dimen/margin_avatar_top"
+                app:layout_constraintTop_toBottomOf="@id/textview_receive_subject"
+                app:layout_constraintStart_toStartOf="parent"/>
+            
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textview_receive_sender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Github"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize_receive_sender"
+                android:layout_marginStart="@dimen/margin_sender_start"
+                app:layout_constraintStart_toEndOf="@+id/textView_receive_avatar"
+                app:layout_constraintTop_toTopOf="@id/textView_receive_avatar"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textview_receive_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="6/10/2020"
+                android:textSize="@dimen/textsize_receive_date"
+                android:layout_marginStart="@dimen/margin_date_start"
+                app:layout_constraintStart_toEndOf="@+id/textview_receive_sender"
+                app:layout_constraintBaseline_toBaselineOf="@id/textview_receive_sender"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textview_receive_receiver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/text_receive_receiver"
+                android:textSize="@dimen/textsize_receive_receiver"
+                app:layout_constraintStart_toStartOf="@id/textview_receive_sender"
+                app:layout_constraintBottom_toBottomOf="@id/textView_receive_avatar"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_down_24"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/imagebutton_receive_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="@id/textView_receive_avatar"
+                android:src="@drawable/ic_baseline_more_vert_24"
+                android:background="@color/white"
+                android:padding="@dimen/padding_receive_morebutton"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/imagebutton_receive_reply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toStartOf="@id/imagebutton_receive_more"
+                app:layout_constraintBottom_toBottomOf="@id/textView_receive_avatar"
+                android:src="@drawable/ic_outline_turn_left_24"
+                android:background="@color/white"
+                android:padding="@dimen/padding_receive_replybutton"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textview_receive_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize_receive_body"
+                android:textColor="@color/black"
+                tools:text="jwhoiuowaivpwg"
+                android:layout_marginTop="@dimen/margin_receive_body_top"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView_receive_avatar"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>
