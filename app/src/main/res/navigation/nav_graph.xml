@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/composeFragment">
+
+    <fragment
+        android:id="@+id/composeFragment"
+        android:name="com.example.androidtest1.ComposeFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_compose" >
+        <action
+            android:id="@+id/action_composeFragment_to_recieveFragment"
+            app:destination="@id/recieveFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recieveFragment"
+        android:name="com.example.androidtest1.RecieveFragment"
+        android:label="RecieveFragment">
+
+        <argument
+            android:name="subject"
+            app:argType="string" />
+        <argument
+            android:name="sender"
+            app:argType="string" />
+        <argument
+            android:name="receiver"
+            app:argType="string"/>
+        <argument
+            android:name="body"
+            app:argType="string"/>
+    </fragment>
+</navigation>

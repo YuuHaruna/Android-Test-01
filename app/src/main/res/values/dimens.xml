@@ -1,3 +1,18 @@
 <resources>
-    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding_compose_layout">10dp</dimen>
+    <dimen name="textsize_compose">14sp</dimen>
+    <dimen name="margin_compose_top">30dp</dimen>
+    <dimen name="margin_compose_edittext_start">5dp</dimen>
+    <dimen name="textsize_receive_subject">28sp</dimen>
+    <dimen name="textsize_receive_sender">20sp</dimen>
+    <dimen name="textsize_receive_receiver">18sp</dimen>
+    <dimen name="textsize_receive_body">14sp</dimen>
+    <dimen name="textsize_receive_date">14sp</dimen>
+    <dimen name="size_avatar">50dp</dimen>
+    <dimen name="margin_avatar_top">20dp</dimen>
+    <dimen name="margin_sender_start">20dp</dimen>
+    <dimen name="margin_date_start">10dp</dimen>
+    <dimen name="padding_receive_morebutton">15dp</dimen>
+    <dimen name="padding_receive_replybutton">15dp</dimen>
+    <dimen name="margin_receive_body_top">20dp</dimen>
 </resources>
