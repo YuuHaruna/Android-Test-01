@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="binding"
+            type="android.view.View" />
+
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_composefragment"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
+            app:title="@string/appbar_title" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_compose_layout"
+            tools:context=".ComposeFragment">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textview_compose_sender"
+                style="@style/TextCompose"
+                android:layout_marginTop="0dp"
+                android:text="@string/text_compose_sender"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edittext_compose_sender"
+                style="@style/EditTextCompose"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_down_24"
+                android:inputType="textEmailAddress"
+                app:layout_constraintStart_toEndOf="@id/textview_compose_sender"
+                app:layout_constraintTop_toTopOf="@id/textview_compose_sender" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textview_compose_reciever"
+                style="@style/TextCompose"
+                android:text="@string/text_compose_reciever"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textview_compose_sender" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edittext_compose_receiver"
+                style="@style/EditTextCompose"
+                android:inputType="textEmailAddress"
+                app:layout_constraintStart_toEndOf="@id/textview_compose_reciever"
+                app:layout_constraintTop_toTopOf="@id/textview_compose_reciever" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textview_compose_manyrecipients_public"
+                style="@style/TextCompose"
+                android:text="@string/text_compose_manyrecipients_public"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textview_compose_reciever" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edittext_compose_manyrecipients_public"
+                style="@style/EditTextCompose"
+                android:inputType="textEmailAddress"
+                app:layout_constraintStart_toEndOf="@id/textview_compose_manyrecipients_public"
+                app:layout_constraintTop_toTopOf="@id/textview_compose_manyrecipients_public" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textview_compose_manyrecipients_private"
+                style="@style/TextCompose"
+                android:text="@string/text_compose_manyrecipients_private"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textview_compose_manyrecipients_public" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edittext_compose_manyrecipients_private"
+                style="@style/EditTextCompose"
+                android:inputType="textEmailAddress"
+                app:layout_constraintStart_toEndOf="@id/textview_compose_manyrecipients_private"
+                app:layout_constraintTop_toTopOf="@id/textview_compose_manyrecipients_private" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edittext_compose_subject"
+                style="@style/EditTextCompose"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="@dimen/margin_compose_top"
+                android:hint="@string/text_compose_subject"
+                android:inputType="textEmailSubject"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textview_compose_manyrecipients_private" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edittext_compose_body"
+                style="@style/EditTextCompose"
+                android:layout_height="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="@dimen/margin_compose_top"
+                android:gravity="top"
+                android:hint="@string/text_compose_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/edittext_compose_subject" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>
