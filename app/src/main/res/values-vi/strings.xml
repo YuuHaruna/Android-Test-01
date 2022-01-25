@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Cài đặt</string>
+    <string name="appbar_title">Soạn</string>
+    <string name="attach">Tệp đính kèm</string>
+    <string name="send">Gửi</string>
+    <string name="archive">Lưu trữ</string>
+    <string name="delete">Xóa</string>
+    <string name="mark_unread">Đánh dấu là đã đọc</string>
+    <string name="text_compose_sender">Từ</string>
+    <string name="text_compose_reciever">Tới</string>
+    <string name="text_compose_subject">Tiêu đề</string>
+    <string name="text_compose_content">Soạn email</string>
+    <string name="text_receive_receiver">tới %1$s</string>
+    <string name="test_weblate_translated">"Đây là 1 câu đã được dich bởi dev "</string>
+</resources>
