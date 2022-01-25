@@ -12,6 +12,8 @@
     <string name="text_compose_subject">Tiêu đề</string>
     <string name="text_compose_content">Soạn email</string>
     <string name="text_receive_receiver">tới %1$s</string>
-    <string name="test_weblate_translated">"Đây là 1 câu đã được dich bởi dev "</string>
+    <string name="test_weblate_translated">Đây là 1 câu đã được dich bởi dev</string>
     <string name="test_weblate_2">Đây là câu thử 2 2</string>
+    <string name="test_weblate">Đây là chuỗi chưa được dịch</string>
+    <string name="test_weblate_1">Đây là chuỗi thử 1</string>
 </resources>
