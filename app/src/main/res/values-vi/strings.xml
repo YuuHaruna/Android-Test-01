@@ -16,6 +16,6 @@
     <string name="test_weblate_2">Đây là câu thử 2 2</string>
     <string name="test_weblate">Đây là chuỗi chưa được dịch</string>
     <string name="test_weblate_1">Đây là chuỗi thử 1</string>
-    <string name="test_weblate_again2">Hãy thử weblate một lần nữa, nhưng tôi đã dịch câu này</string>
+    <string name="test_weblate_again2">"Hãy thử weblate một lần nữa, nhưng tôi đã dịch câu này "</string>
     <string name="test_weblate_again1">Hãy kiểm tra weblate một lần nữa</string>
 </resources>
