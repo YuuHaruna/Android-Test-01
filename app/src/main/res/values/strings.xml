@@ -22,4 +22,7 @@
     <string name="test_weblate_1">This is a test string 1</string>
     <string name="test_weblate_2">This is a test string 2</string>
     <string name="test_weblate_3" translatable="false">This is a test string 3</string>
+    <string name="test_weblate_again1">Let\'s test weblate again</string>
+    <string name="test_weblate_again2">Let\'s test weblate again, but I\'ve translated this</string>
+    <string name="test_weblate_again3">Let\'s test weblate again, but do not trans this</string>
 </resources>
