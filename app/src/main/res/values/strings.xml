@@ -16,4 +16,7 @@
     <string name="text_compose_content">Compose email</string>
     <string name="text_receive_receiver">to %1$s</string>
     <string name="text_receive_date" translatable="false">%1$d/%2$d/%3$d</string>
+    <string name="test_weblate">Test weblate normal</string>
+    <string name="test_weblate_translated">Test weblate translated</string>
+    <string name="test_weblate_nottrans" translatable="false">Test weblate do not trans</string>
 </resources>
