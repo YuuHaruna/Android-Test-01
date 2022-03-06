@@ -1,23 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name" translatable="false">Android Test 1</string>
+
     <string name="action_settings">Settings</string>
+
     <string name="appbar_title">Compose</string>
+
     <string name="attach">Attach</string>
+
     <string name="send">Send</string>
+
     <string name="archive">Archive</string>
+
     <string name="delete">Delete</string>
+
     <string name="mark_unread">Mark As Unread</string>
+
     <string name="text_compose_sender">From</string>
+
     <string name="text_compose_reciever">To</string>
+
     <string name="text_compose_manyrecipients_public" translatable="false">CC</string>
+
     <string name="text_compose_manyrecipients_private" translatable="false">BCC</string>
-    <string name="text_compose_subject">Subject</string>
+
+    <string name="text_compose_subject">Subject changed</string>
+
     <string name="text_compose_content">Compose email</string>
+
     <string name="text_receive_receiver">to %1$s</string>
+
     <string name="text_receive_date" translatable="false">%1$d/%2$d/%3$d</string>
+
     <string name="test_weblate">Test weblate normal</string>
+
     <string name="test_weblate_translated">Test weblate translated</string>
+
     <string name="test_weblate_nottrans" translatable="false">Test weblate do not trans</string>
 
 
