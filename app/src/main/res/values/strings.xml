@@ -19,4 +19,5 @@
     <string name="test_weblate">Test weblate normal</string>
     <string name="test_weblate_translated">Test weblate translated</string>
     <string name="test_weblate_nottrans" translatable="false">Test weblate do not trans</string>
+    <string name="test_fix_conflict">Let\s fix this conflict</string>
 </resources>
